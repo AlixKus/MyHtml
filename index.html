@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+	body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, img {
+    margin: 0;
+    padding: 0;
+	color:white;
+	}
+	
+   .header{ 
+	position:fixed;
+	width:100%;
+    top:0;
+	left:0;
+	background-color: #fff;
+	height:80px;
+	z-index: 999;
+	opacity: 0.8;
+   }
+   ul, li {list-style:none}
+ 
+ .mainNav li {
+	color:#000;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+	height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+
+.mainContent{
+	position:relative;
+	z-index:99;
+	width: 100%;
+    margin: 0 auto;
+    height: 800px;
+	background-color: #000;
+	opacity: 0.5;
+	padding-top:100px;
+}
+#logo
+{
+	background: url(./logo.png) no-repeat scroll 0 0 transparent;
+	width:80px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+<div class="mainNav">
+<ul>
+<li id="logo"><a></a></li>
+<li><a>AAA</a></li>
+<li><a>BBB</a></li>
+<li><a>CCC</a></li>
+<li><a>DDD</a></li>
+<ul>
+</div>
+</div>
+
+<div class="mainContent">
+
+<p>
+Hey ! I am
+Business Agency
+Aenean lacinia bibendum nulla sed consectetur.
+ Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget.
+</p>
+</div>
+
+<video id="J_video_player" class="video-player" style="position: absolute; width:100%; height:auto;
+ z-index: -100;  top: 0px;left:0px;overflow: hidden;"  autoplay="autoplay">
+                  <source src="videosBG.mp4" type="video/mp4">
+</video>
+
+
+
+</body>
+</html>
