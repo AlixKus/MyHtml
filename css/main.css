@@ -1,0 +1,97 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, img {
+    margin: 0;
+    padding: 0;
+	color:white;
+	}
+	
+   .header{ 
+	position:fixed;
+	width:100%;
+    top:0;
+	left:0;
+	background-color: #fff;
+	height:80px;
+	z-index: 999;
+	opacity: 0.8;
+   }
+   ul, li {list-style:none}
+ 
+ .mainNav li {
+	color:#000;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+	height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+
+#logo
+{
+	font-family:arial;
+	color:#0cf;
+	font-size:2.3em;
+	width:180px;
+}
+
+.mainContent{
+	position:relative;
+	z-index:99;
+	width: 100%;
+    margin: 0 auto;
+    height: 100%;
+	background-color: #000;
+	opacity: 0.6;
+	padding-top:100px;
+	min-height:600px;
+}
+
+.bigTitle{
+	margin-bottom: 20px;
+    padding: 0;
+    font-size: 60px;
+    line-height: 62px;
+    font-weight: 1000;
+}
+
+.bigTitle span{
+	color:#0cf;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.homeContent{
+	margin-top:60px;
+}
+
+p{
+	font-size: 21px;
+    line-height: 27px;
+}
+
+.mainBg{
+	z-index: -100;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
